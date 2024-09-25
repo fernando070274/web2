@@ -1,0 +1,150 @@
+/*
+Playpen Sans
+Indie Flower
+Julius Sans One
+
+Red jasper - #DB504A
+Orange bittersweet - #FF6F59
+Dark slate gray (dark green) - #254441
+Light green ish (Zomp) - #43AA8B
+Grayish green (Sage) - #B2B09B
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    height: 125px;
+    padding: 0px 10px;
+    align-items: center;
+}
+
+header > div{
+    width: auto;
+    height: 100px;
+    flex-grow: 1;
+}
+
+header > div > a > img{
+    width: auto;
+    height: 100%;
+}
+
+footer{
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: "Playpen Sans",sans-serif;
+}
+
+h3{
+    font-family: "Indie Flower", sans-serif;
+}
+
+a,li,p{
+    text-decoration: none;
+}
+
+header{
+    background-color: #43AA8B;
+    display: flex;
+    align-items: center;
+}
+
+header > nav > menu{
+    display: flex;
+}
+
+header > nav > menu > li{
+    list-style: none;
+    font-size: 25px;
+    font-family: "Julius Sans One";
+    color: #254441;
+    padding:0 20px;
+
+}
+
+header > nav > menu > li:hover{
+    background-color: #DB504A;
+    border-radius: 10px;
+}
+
+.lesson-masthead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #254441;
+}
+
+.lesson-masthead h1{
+    font-family: "Indie Flower", sans-serif;
+    font-size: 100px;
+    color: #DB504A;
+    letter-spacing: 2px;
+    text-shadow: 4px 3px 4px rgb(219, 80, 74, .5) ;
+
+}
+
+.lesson-masthead h1 > span{
+    font-family: "Playpen Sans",sans-serif;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.lyric{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #f8f6e4;
+}
+
+.lyric textarea{
+    font-family: "Indie Flower", sans-serif;
+    font-size: 40px;
+    padding: 50px 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #f8f6e4;
+    text-shadow: 4px 3px 4px rgba(0,0,0,.3);
+}
+
+.media{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-color: #254441;
+}
+
+
+.media .img img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    height: 125px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #43AA8B;
+    font-size: 30px;
+}
+
+footer h6{
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: lighter;
+}
