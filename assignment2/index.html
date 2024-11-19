@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Assignment 2 Home Page">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Assignment 2 | Home Page</title>
+        <!--custom fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Matemasie&family=Oswald:wght@200..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!--linking css-->
+        <link rel="stylesheet" href="./css/style.css">
+        <!--linking jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./js/custom-js.js"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a class="default-logo" href="index.html"><img src="./img/Kinderbueno_brand_logo.png" alt="pagelogo"></a>
+                <a class="scroll" href="index.html"><img src="./img/logo-kinder-bueno-white.png" alt="pagelogo"></a>
+            </div>
+            <nav>
+                <menu>
+                    <li><a href="#imgsec">Section 1</a></li>
+                    <li><a href="#">Shop<span>&#8595;</span></a> <!-- arrow pointing down-->
+                        <ul class="drop">
+                            <li><a href="#">Chocolate</a></li>
+                            <li><a href="#">Toys</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                </menu>
+            </nav>
+        </header>
+        <section class="main-head">
+            <div>
+                <h1>Kinder</h1>
+                <div class="arrow"></div>
+            </div>
+        </section>
+        <main> <!--text effect to make the text come from the left-->
+            <section id="imgsec">
+                <h2 class="textEffect">Kinder Bueno: A treat that melts in  your mouth!</h2>
+                <p class="textEffect">Kinder Bueno is a beloved chocolate bar that combines a delightful mix of flavors and textures, making it a favorite treat for chocolate enthusiasts around the world. Created by the iconic Ferrero brand, Kinder Bueno is known for its light, crispy wafer shell filled with a creamy hazelnut filling, all wrapped in a smooth milk chocolate coating.</p>
+                <p class="textEffect">The chocolate is carefully designed to provide the perfect balance between sweetness and crunch. Each bar is conveniently divided into individual pieces, making it easy to share (or savor all by yourself!). Whether you’re enjoying it as a snack, a dessert, or a quick pick-me-up, Kinder Bueno offers a moment of pure indulgence.</p>
+                <p class="textEffect">Beyond its delicious taste, Kinder Bueno is also celebrated for its high-quality ingredients and attention to detail. It’s a chocolate experience that’s light yet satisfying, proving that even a small treat can bring immense joy. So the next time you’re craving a sweet escape, unwrap a Kinder Bueno and let it transport you to a world of creamy, crispy bliss!</p>
+                <a href="index.html" class="button">Shop Now</a>
+            </section>
+        </main>
+        <footer> <!--contact section (includin modal)-->
+                <a href="index.html"><img src="./img/logo-kinder-bueno-white.png" alt="logo footer"></a>
+            <section class="contact-us">
+                <h3>Contact Us</h3>
+                <button id="myButton">Contact</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <form action="#" method="post">
+                            <input type="text" placeholder="Your Name">
+                            <br>
+                            <input type="email" placeholder="Email">
+                            <br>
+                            <textarea placeholder="Message"></textarea>
+                            <br>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <div> 
+                <h6 class="textEffect-footer">Our Chocolate</h6>
+                <p class="textEffect-footer">Indulge in the irresistible combination of creamy hazelnut, crispy wafer, and smooth milk chocolate with Kinder Bueno. Share the joy or savor it all to yourself , every bite is a moment of bliss!</p>
+            </div>
+        </footer>
+    </body>
+</html>
